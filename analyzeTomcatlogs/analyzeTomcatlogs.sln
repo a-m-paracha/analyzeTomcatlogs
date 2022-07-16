@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32228.343
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "analyzeTomcatlogs", "analyzeTomcatlogs\analyzeTomcatlogs.csproj", "{7FF4E130-B469-4713-9E12-E36B01901B84}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7FF4E130-B469-4713-9E12-E36B01901B84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7FF4E130-B469-4713-9E12-E36B01901B84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7FF4E130-B469-4713-9E12-E36B01901B84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7FF4E130-B469-4713-9E12-E36B01901B84}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F2E16B24-C2B6-46AF-844B-3DD34E262EF5}
+	EndGlobalSection
+EndGlobal
