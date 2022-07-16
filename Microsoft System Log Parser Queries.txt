@@ -1,0 +1,4 @@
+SELECT quantize(to_timestamp(strcat(to_string(Date),strcat(' ',to_string(time))),'yyyy-MM-dd hh:mm:ss'),3600) as Hour, COUNT(*) AS Hits FROM 'C:\data\newlogfiles2\*' WHERE URL like '/arcgis/rest/services%' Group By Hour
+SELECT Date, Time, URL FROM 'C:\data\newlogfiles2\*' WHERE URL like '/arcgis/rest/services%'
+SELECT EsriOperation, count(EsriOperation) as requestcount FROM 'C:\data\newlogfiles2\*' where URL like '/arcgis/rest/services%' group by EsriOperation order by count(EsriOperation) desc
+SELECT EsriServiceType, count(EsriServiceType) as requestcount FROM 'C:\data\newlogfiles2\*' where URL like '/arcgis/rest/services%' group by EsriServiceType order by count(EsriServiceType) desc
